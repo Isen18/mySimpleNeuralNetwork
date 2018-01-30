@@ -31,7 +31,7 @@ class Perception(object):
         加一是因为w0, 步调函数阈值
         """
         self.w_ = np.zeros(1 + X.shape[1])
-        self.errors_ =[]
+        self.errors_ = []
 
         for _ in range(self.n_iter):
             errors = 0
@@ -42,7 +42,7 @@ class Perception(object):
             """
             # print(zip(X, y))
             for xi, target in zip(X, y):
-                """
+                """ 
                 update = η * （y - y')
                 """
                 update = self.eta * (target - self.predict(xi))

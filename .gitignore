@@ -1,6 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+<<<<<<< HEAD
+=======
+*$py.class
+>>>>>>> 3bb4373b758aaa92d9936b0af997d7493da20536
 
 # C extensions
 *.so
@@ -19,6 +23,10 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
+=======
+wheels/
+>>>>>>> 3bb4373b758aaa92d9936b0af997d7493da20536
 *.egg-info/
 .installed.cfg
 *.egg
@@ -41,7 +49,12 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *,cover
+=======
+*.cover
+.hypothesis/
+>>>>>>> 3bb4373b758aaa92d9936b0af997d7493da20536
 
 # Translations
 *.mo
@@ -49,9 +62,56 @@ coverage.xml
 
 # Django stuff:
 *.log
+<<<<<<< HEAD
+=======
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+>>>>>>> 3bb4373b758aaa92d9936b0af997d7493da20536
 
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
+<<<<<<< HEAD
+=======
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+>>>>>>> 3bb4373b758aaa92d9936b0af997d7493da20536

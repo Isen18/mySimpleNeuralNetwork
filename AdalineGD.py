@@ -32,7 +32,7 @@ class AdalineGD(object):
             errors = (y - output)
             self.w_[1:] += self.eta * X.T.dot(errors)
             self.w_[0] += self.eta * errors.sum()
-            cost = (errors ** 2).sum() /2.0
+            cost = (errors ** 2).sum() / 2.0
             self.cost_.append(cost)
             pass
         return self
